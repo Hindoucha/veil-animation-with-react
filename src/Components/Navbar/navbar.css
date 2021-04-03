@@ -1,0 +1,39 @@
+.navbar{
+    height: 10vh;
+    /*background-color: #fdc584;  à supprimer plutard */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-right {
+    width: 22vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+    /*background-color: blue;*/
+    width: 30vw;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.3em;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.translation {
+    width: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    /*background-color: blue;  à supprimer*/
+}
+
+.translation img{
+    cursor: pointer;
+}

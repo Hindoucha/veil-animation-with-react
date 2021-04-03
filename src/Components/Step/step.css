@@ -1,0 +1,8 @@
+.step{
+    position: relative;
+    margin-bottom: 10%;
+    height: 60vh;
+    /*background-color: rgb(240, 162, 186);*/
+    display: flex;
+    align-items: center;
+}

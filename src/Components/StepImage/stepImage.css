@@ -1,0 +1,25 @@
+.step-image {
+    flex: 3;
+    /*background-color: cadetblue;*/
+    position: relative;
+}
+
+
+.shadow {
+    box-shadow: 4px 3px 5px 0px rgba(119, 116, 116, 0.75);
+-webkit-box-shadow: 4px 3px 5px 0px (119, 116, 116, 0.75);
+-moz-box-shadow: 4px 3px 5px 0px (119, 116, 116, 0.75);
+    border-radius: 5%;
+}
+
+.trio {
+    height: 50vh;
+    background-color: #FFCF99;
+    clip-path: polygon(0 0, 0% 100%, 35% 100%);
+}
+
+.trio1 {
+    height: 50vh;
+    background-color: #FFCF99;
+    clip-path: polygon(100% 0, 35% 100%, 100% 100%);
+}

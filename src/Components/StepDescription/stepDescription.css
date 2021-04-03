@@ -1,0 +1,8 @@
+.step-description {
+    height: 40vh;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;  
+    /*background-color: brown;*/
+}

@@ -1,0 +1,61 @@
+.content {
+    height: 80vh;
+    /*background-color: brown;  à supprimer plutard*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-and-image {
+    display: flex;
+    /*background-color: cadetblue; à supprimer plutard*/ 
+    height: 50vh;
+    width: 100%;
+}
+
+.text-and-image .text {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-and-image .image {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.text-and-image .image img {
+    height: 100%;
+}
+
+.text-and-image .title {
+    font-size: 1.6em;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+.btns {
+    margin-top: 3%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    /*background-color: blue; à supprimer plutard*/
+}
+
+.learn:hover{
+    background-color: brown;
+    color: white;
+}
+
+.image {
+    position: relative;
+    animation: example 4s infinite;
+}
+
+@keyframes example {
+    0%   { top:-10px;}
+    50%  {top:15px;}
+    100% { top:-10px;}
+  }
