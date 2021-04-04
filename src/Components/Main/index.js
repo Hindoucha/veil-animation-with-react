@@ -3,6 +3,7 @@ import "./main.css"
 
 // import component
 import Work from "../Work"
+import Pricing from "../Pricing"
 
 const Main = () => {
     return(
@@ -10,7 +11,8 @@ const Main = () => {
             <div className="triangle">
             How does it work?
             </div>
-            <Work />           
+            <Work />  
+            <Pricing />         
         </div>
     )
 }
